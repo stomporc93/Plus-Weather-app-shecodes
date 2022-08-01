@@ -1,17 +1,7 @@
-h1 {
-  font-family: "PT Sans", sans-serif;
-  font-size: 84px;
-  text-align: center;
-}
-
-h3 {
-  font-family: "PT Sans", sans-serif;
-  font-size: 75px;
-  text-align: center;
-}
-
 .Sunnydays-icon {
   color: #ffc54d;
+  text-align: center;
+  font-size: 48px;
 }
 
 .search-engine-form {
