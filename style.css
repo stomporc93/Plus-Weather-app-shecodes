@@ -17,3 +17,7 @@ h3 {
 .search-engine-form {
   text-align: center;
 }
+
+.search-button {
+  color: blueviolet;
+}
