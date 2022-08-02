@@ -1,3 +1,12 @@
+ul {
+  margin: 0 0 8px;
+  padding: 0;
+}
+li {
+  font-size: 15px;
+  list-style: none;
+}
+
 .Sunnydays-icon {
   color: #ffc54d;
   text-align: center;
@@ -10,4 +19,22 @@
 
 .search-button {
   color: blueviolet;
+}
+.weather-app-format {
+  border: 1px solid #ffc54d;
+  margin: 20px auto;
+  padding: 18px;
+  border-radius: 18px;
+}
+
+.temperature {
+}
+.units {
+  font-size: 42px;
+}
+
+.humidity {
+}
+
+.wind {
 }
