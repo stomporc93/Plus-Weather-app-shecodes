@@ -35,7 +35,7 @@ function displayCurrentWeatherCondition(response) {
 
 function searchCity(city) {
   let apiKey = "120fe6344a09d842fa739744b51e1227";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cities}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayCurrentWeatherCondition);
 }
 function handleSubmit(event) {
@@ -45,7 +45,7 @@ function handleSubmit(event) {
 }
 
 function searchLocation(position) {
-  let apiKey = "d120fe6344a09d842fa739744b51e1227";
+  let apiKey = "120fe6344a09d842fa739744b51e1227";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayCurrentWeatherCondition);
 }
