@@ -25,7 +25,7 @@ li {
 }
 .weather-app-format {
   border: 1px solid #ffc54d;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 18px;
   border-radius: 18px;
 }
