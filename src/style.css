@@ -12,7 +12,7 @@ li {
   text-align: center;
   font-size: 55px;
   position: relative;
-  top: 25px;
+  top: 30px;
   right: -525px;
 }
 
@@ -24,22 +24,19 @@ li {
   color: blueviolet;
 }
 .weather-app-format {
-  border: 1px solid #ffc54d;
-  margin: 0 auto;
+  border: 2px solid #ffc54d;
+  margin: 28px 8px auto;
   padding: 18px;
   border-radius: 18px;
 }
-
+.cities {
+  font-size: 72px;
+}
 .temperature {
+  font-size: 55px;
 }
 .units {
-  font-size: 42px;
-}
-
-.humidity {
-}
-
-.wind {
+  font-size: 28px;
 }
 
 a:link {
