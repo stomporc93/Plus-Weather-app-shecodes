@@ -1,3 +1,9 @@
+h1 {
+  font-size: 60px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
 ul {
   margin: 0 0 8px;
   padding: 0;
