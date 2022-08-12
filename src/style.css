@@ -28,9 +28,10 @@ li {
 .search-button {
   color: blueviolet;
 }
+
 .weather-app-format {
   border: 2px solid #ffc54d;
-  margin: 28px auto;
+  margin: 28px auto, 28px, 5px;
   padding: 18px;
   border-radius: 18px;
 }
