@@ -15,11 +15,10 @@ li {
 
 .Sunnydays-icon {
   color: #ffc54d;
-  text-align: center;
   font-size: 55px;
-  position: relative;
-  top: 30px;
-  right: -525px;
+  display: block;
+  margin: 30px auto;
+  width: 5%;
 }
 
 .search-engine-form {
@@ -31,7 +30,7 @@ li {
 }
 .weather-app-format {
   border: 2px solid #ffc54d;
-  margin: 28px 8px auto;
+  margin: 28px auto;
   padding: 18px;
   border-radius: 18px;
 }
