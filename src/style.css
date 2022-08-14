@@ -11,9 +11,11 @@ ul {
 li {
   font-size: 15px;
   list-style: none;
-  text-transform: capitalize;
 }
 
+li:first-letter {
+  text-transform: capitalize;
+}
 .Sunnydays-icon {
   color: #ffc54d;
   font-size: 55px;
