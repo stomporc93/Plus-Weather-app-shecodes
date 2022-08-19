@@ -42,7 +42,18 @@ function displayTemperature(response) {
   );
 }
 
-let apiKey = "41f66e0a4e295409ff8adb31321cc2e4";
-let city = "Chicago";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
-axios.get(apiUrl).then(displayTemperature);
+function search(city) {
+  let apiKey = "41f66e0a4e295409ff8adb31321cc2e4";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
+  axios.get(apiUrl).then(displayTemperature);
+}
+
+function controllingSubmit(event) {
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#city-input");
+  search(cityInputElement.value);
+}
+search("Chicago");
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", controllingSubmit);
