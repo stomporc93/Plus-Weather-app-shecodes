@@ -66,3 +66,27 @@ li:first-letter {
 a:link {
   text-decoration: none;
 }
+
+.weather-forecast {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 20px;
+  color: #ffc54d;
+}
+
+.weather-forecast-ranges {
+  font-size: 16px;
+  text-align: center;
+}
+
+.weather-forecast-max {
+  color: orange;
+}
+
+.weather-forecast-min {
+  color: lightgray;
+  font-size: 15px;
+}
