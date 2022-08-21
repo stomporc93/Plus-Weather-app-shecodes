@@ -38,6 +38,13 @@ li:first-letter {
   padding: 18px;
   border-radius: 18px;
 }
+.weather-app-format .active {
+  color: black;
+  cursor: default;
+}
+.weather-app-format .active:hover {
+  text-decoration: none;
+}
 .overview {
   margin-bottom: 20px;
 }
